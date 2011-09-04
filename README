@@ -1,0 +1,33 @@
+2 in 1 Algorithm Simulator
+--------------------------------------------------
+@author : Harsha Siriwardena 
+harshadura@gmail.com | www.harshadura.com
+--------------------------------------------------
+
+Consist with, 
+-------------
+•	Insertion Sort
+•	Selection Sort
+
+Features
+----------
+•	This Simulator supports any given kind LONG INTEGER data type values.
+So the users can give positive numbers and Negative values as Well.
+
+•	Simulator designed to tolerate any given Number Sizes. The Array Size doesn’t matter.
+
+•	Synthetica themes embedded with Swing User Interfaces considering better Look and Feel for the Application. 
+
+•	The Performance comparison Analysis Graphs.
+
+Comparison between two algorithms.
+----------------------------------
+You can compare those two algorithms using the Panel called “Insertion Sort Vs Selection Sort” In that panel user can simply type the number sequence and the “Sort it!!” button will generate the output to both Sorting algorithms. And after so on you can analyze the performance of both two algorithms as well. 
+
+You can simply click the “Performance” button and it will show the actual graphs which were generated after while the Sorting process done. It will show the Time Complexity and the Instruction Count graphs of both of Algorithms. So the user can examine which algorithm is the best for those called Best case and worse cases. 
+
+Notes
+------
+Bug in Time Complexity Calculation
+
+For calculate the Actual time complexity I have used a Threading Approach. (using Multiple Threads) For using that Approach my intension was to calculate the actual Time differences of both sorting Algorithms at the same time. But the Problem is this Thread are made to do simultaneous process at the same time thus they might depend on the CPU Interrupts, Process Schedules, and other System made doing Stuff which they gave most priority for them.  So this Time Complexity can be differ afterwards, for the Same Sorting Numbers if you checked the Time complexity again and again. That’s actually a bug in my code.
